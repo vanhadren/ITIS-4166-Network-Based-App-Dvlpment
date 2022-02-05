@@ -9,7 +9,7 @@ main{
     text-align: justify;
     margin-left: 25%;
     margin-right: 25%;
-    background-color: darkolivegreen;
+    background-color: rgb(117, 150, 61);
 }
 h1{
 position: relative;
@@ -20,7 +20,7 @@ margin-right: 200px;
 h2{
 position: relative;
 font-size: large;
-color: darkblue;
+color: darkblue;s
 }
 p{
 font-size: small;
