@@ -33,6 +33,16 @@ a:link, a:visited{
     color:rgb(3, 42, 114);
 
 }
+#homepage{
+    border: dotted double black;
+    width: 50%;
+    height: 50%;
+    font-size: x-large;
+    color: darkblue;
+    text-align: center justify;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
 #event{
     width: 50%;
     padding: 5px;
