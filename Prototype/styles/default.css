@@ -1,6 +1,7 @@
 html, body {
-    margin: 10;
+    margin:0;
     padding: 10;
+    height:100%;
     text-align: left;
     background-color: aquamarine;
 }
