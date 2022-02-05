@@ -16,40 +16,42 @@
     <div id="header"><!--includes NAV--></div>
 <main>
         <form id= eventForm>
-            <label>Title:</label>
+            
                 <input type="text" id="title" placeholder="Enter title of the event">
                      <br><br><br>
 
-                <label>Type:</label>
-                    <input type="text" id="type"  placeholder="what kind of meet is it">
-                    <br><br><br>
 
-                <label">Host:</label>
-                    <input type="text" id="host"  placeholder="Enter the name of host">
-                    <br><br><br>
+                <input type="radio" id="homeEvent" name="homeEvent" value="homeEvent">
+                <label for="homeEvent">Home Event</label>
+                    <input type="radio" id="publicEvent" name=" publicEvent" value=" publicEvent">
+                    <label for=" publicEvent"> Public Event</label>
+                <br><br><br>
+        
+                <input type="text" id="host"  placeholder="Enter the name of host">
+                <br><br><br>
 
-                <label>Details:</label>
-                    <textarea id="details"  rows="6" cols="30" placeholder="Descriped the event in detail"></textarea>
-                    <br><br><br>
-                    
-                <label>Where:</label>
-                    <input type="text" id="where" placeholder="Enter the Location of the event">
-                    <br><br><br>
+            
+                <textarea id="details"  rows="6" cols="30" placeholder="Descriped the event in detail"></textarea>
+                <br><br><br>
+                
+            
+                <input type="text" id="where" placeholder="Enter the Location of the event">
+                <br><br><br>
 
-                <label>Start date:</label>
-                    <input type="text" id="startDate" placeholder="please enter date in mm/dd/yyyy format.">
-                    <br><br><br>
+            
+                <input type="text" id="startDate" placeholder="please enter date in mm/dd/yyyy format.">
+                <br><br><br>
 
-                <label>Start time:</label>
-                    <input type="text" id="startTime" placeholder="Enter your event starting time">
-                    <br><br><br>
+            
+                <input type="text" id="startTime" placeholder="Enter your event starting time">
+                <br><br><br>
 
-                <label >End time:</label>
-                    <input type="text" id="endTime" placeholder="Enter the event ending time">
-                    <br><br><br>
+            
+                <input type="text" id="endTime" placeholder="Enter the event ending time">
+                <br><br><br>
 
-                <label>Image URL:</label>
-                    <input type="file" id="image">
+            
+                <input type="file" id="image">
         </form>
                    <br><br><br>
                 </div>
