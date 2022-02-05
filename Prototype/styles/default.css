@@ -52,3 +52,19 @@ a:link, a:visited{
     padding: 5px 5px;
     color: white;
 }
+
+header, footer {   
+    font-family: 'Kalam';
+    color: rgb(150,0,0);
+    background-color:rgb(200, 50, 50);
+    text-align: center;
+    padding: 5px;
+    color: rbga(200,200,50,.85);
+    position: relative;
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    
+}
+  
