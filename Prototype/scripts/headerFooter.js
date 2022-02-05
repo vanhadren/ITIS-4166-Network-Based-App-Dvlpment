@@ -2,7 +2,7 @@ $(document).ready
 (
     function()
     {
-        document.getElementById("header").load('components/header.html');
+      
         $("#header").load("components/header.html");
     }
 );
