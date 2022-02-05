@@ -20,14 +20,14 @@ margin-right: 200px;
 h2{
 position: relative;
 font-size: large;
-color: darkblue;s
+color: darkblue;
 }
 p{
 font-size: small;
 color: rgb(0, 51, 51);
 }
 a:link, a:visited{
-    color:cornflowerblue;
+    color:rgba(100, 148, 237, 0.5);
 
 }
 #event{
