@@ -12,6 +12,7 @@ main{
     margin-right: 25%;
     background-color: rgb(117, 150, 61);
     padding: 5px;
+    height:100%;
 }
 h1{
 position: relative;
