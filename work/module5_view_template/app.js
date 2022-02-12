@@ -13,6 +13,7 @@ let students = [
     { id: '1', name: 'Alice', major: 'Computer Science', gpa: 3.5},
     { id: '2', name: 'Bob', major: 'Biology', gpa: 3.2 },
     { id: '3', name: 'Charlie', major: 'Physics', gpa: 3.0}
+    
 ];
 
 app.use(express.static('public'));
@@ -25,7 +26,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/students', (req, res) => {
-    res.json(students);
+    res.render('students', {students: students});
 });
 
 app.post('/students', (req, res) => {

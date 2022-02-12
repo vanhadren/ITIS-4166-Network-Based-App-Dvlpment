@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-let port = 3000;
+let port = 3030;
 let host = 'localhost'
 
 let students = [
